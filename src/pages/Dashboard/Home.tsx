@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <>
       <PageMeta
-        title="Satyarogya Admin Dashboard"
-        description="This is Dashboard page for Satyarogya - Admin Dashboard Template"
+        title="Vitals360 Admin Dashboard"
+        description="This is Dashboard page for Vitals360 - Admin Dashboard Template"
       />
       <div className="grid grid-cols-12 gap-4 md:gap-6">
         <div className="col-span-12 space-y-6 xl:col-span-7">

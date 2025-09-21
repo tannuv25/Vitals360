@@ -86,7 +86,7 @@ const Header: React.FC<HeaderProps> = ({ onClick, onToggle }) => {
             />
             <img
               className="hidden dark:block"
-              src="./images/logo/image.png"
+              src="./images/logo/auth-icon.png"
               alt="Logo"
             />
           </Link>

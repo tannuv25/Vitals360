@@ -13,7 +13,7 @@ import {
   // PieChartIcon,
   // PlugInIcon,
   // TableIcon,
-  UserCircleIcon,
+  // UserCircleIcon,
 } from "../icons";
 import { useSidebar } from "../context/SidebarContext";
 import { BellIcon, Users2Icon, UsersIcon } from "lucide-react";
@@ -36,11 +36,11 @@ const navItems: NavItem[] = [
     name: "Calendar",
     path: "/calendar",
   },
-  {
-    icon: <UserCircleIcon />,
-    name: "User Profile",
-    path: "/profile",
-  },
+  // {
+  //   icon: <UserCircleIcon />,
+  //   name: "User Profile",
+  //   path: "/profile",
+  // },
   // {
   //   name: "Forms",
   //   icon: <ListIcon />,
@@ -332,7 +332,7 @@ const AppSidebar: React.FC = () => {
             </>
           ) : (
             <img
-              src="/images/logo/satya-icon.png"
+              src="/images/logo/auth-icon.png"
               alt="Logo"
               width={32}
               height={32}
