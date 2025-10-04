@@ -307,11 +307,14 @@ const AppSidebar: React.FC = () => {
       onMouseEnter={() => !isExpanded && setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div
+      {/* <div
         className={`py-8 flex ${
           !isExpanded && !isHovered ? "lg:justify-center" : "justify-start"
         }`}
-      >
+      > */}
+      <div className="py-4 px-0 flex justify-center items-center">
+        <div className="w-fit">
+
         <Link to="/">
           {isExpanded || isHovered || isMobileOpen ? (
             <>
@@ -339,6 +342,7 @@ const AppSidebar: React.FC = () => {
             />
           )}
         </Link>
+        </div>
       </div>
       <div className="flex flex-col overflow-y-auto duration-300 ease-linear no-scrollbar">
         <nav className="mb-6">
